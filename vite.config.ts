@@ -41,6 +41,11 @@ export default defineConfig(({ mode }) => {
     define: {
       __APP_ENV__: env.APP_ENV
     },
+    server: {
+      allowedHosts: ['.clackypaas.com', 'localhost', '127.0.0.1'],
+      host: '0.0.0.0',
+      port: 5173
+    },
     build: {
       emptyOutDir: true,
       chunkSizeWarningLimit: 1000

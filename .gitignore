@@ -24,3 +24,24 @@ makefile
 *.njsproj
 *.sln
 *.sw?
+
+# Clacky-related configuration
+.clacky/
+.clackyai/
+
+# pnpm package manager
+.pnpm-store
+.pnpm-debug.log
+.pnpm-lock.yaml
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Vue.js build output
+.vite/
+.nuxt/
+.output/
+
+# Temporary files
+*.tmp
+*.temp
